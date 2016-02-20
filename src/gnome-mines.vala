@@ -501,7 +501,7 @@ public class Mines : Gtk.Application
 
     private void update_flag_label ()
     {
-        flag_label.set_text (_("Flags: %u/%u").printf (minefield.n_flags, minefield.n_mines));
+        flag_label.set_text (_("Flags left: %d").printf ((int)minefield.n_mines-minefield.n_flags));
     }
 
     private int show_scores (HistoryEntry? selected_entry = null, bool show_quit = false)
@@ -1036,6 +1036,11 @@ public class ScoreDialog : Gtk.Dialog
 
     public ScoreDialog (History history, HistoryEntry? selected_entry = null, bool show_quit = false)
     {
+		wins_label=new Gtk.Label("");
+		loses_label=new Gtk.Label("");
+		total_label=new Gtk.Label("");
+		percentage_label=new Gtk.Label("");
+
         this.history = history;
         history.entry_added.connect (entry_added_cb);
         this.selected_entry = selected_entry;
@@ -1095,7 +1100,7 @@ public class ScoreDialog : Gtk.Dialog
 
         foreach (var entry in history.entries)
             entry_added_cb (entry);
-	   
+			
         Gtk.TreeIter iter;
 		int width, height, n_mines;
 		uint wins=0,loses=0,total=0;
@@ -1112,22 +1117,16 @@ public class ScoreDialog : Gtk.Dialog
 				 }
 			 }
 		}
-       
-		wins_label=new Gtk.Label("%s: %u".printf(_("Wins"),wins));
+		
 		wins_label.show();
 		vbox.pack_start(wins_label, false, false, 0);
-
-		loses_label=new Gtk.Label("%s: %u".printf(_("Loses"),loses));
 		loses_label.show();
 		vbox.pack_start(loses_label, false, false, 0);
-
-		total_label=new Gtk.Label("%s: %u".printf(_("Total"),total));
 		total_label.show();
 		vbox.pack_start(total_label, false, false, 0);
-
-		percentage_label=new Gtk.Label("%s: %.2f%%".printf(_("Percentage"),percentage));
 		percentage_label.show();
 		vbox.pack_start(percentage_label, false, false, 0);
+			
     }
 
     public void set_size (uint width, uint height, uint n_mines)
@@ -1194,11 +1193,11 @@ public class ScoreDialog : Gtk.Dialog
 				percentage=wins*100/(double)total;
 			}
 		}
-       
-		wins_label.set_text("%s: %u".printf(_("Wins"),wins));
-		loses_label.set_text("%s: %u".printf(_("Loses"),loses));
-		total_label.set_text("%s: %u".printf(_("Total"),total));
-		percentage_label.set_text("%s: %.2f%%".printf(_("Percentage"),percentage));
+		
+		wins_label.set_text(_("Wins: %u").printf(wins));
+		loses_label.set_text(_("Loses: %u").printf(loses));
+		total_label.set_text(_("Total: %u").printf(total));
+		percentage_label.set_text(_("Percentage: %.2f%%").printf(percentage));
     }
 
     private void entry_added_cb (HistoryEntry entry)
