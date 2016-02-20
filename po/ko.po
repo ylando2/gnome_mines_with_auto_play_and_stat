@@ -1,0 +1,306 @@
+# gnome-mines Korean translation
+# This file is distributed under the same license as the gnome-mines package.
+#
+# From gnome-games:
+#
+# GwanSun Back <backiss@kornet.net>, 2001
+# Changwoo Ryu <cwryu@debian.org>, 1998, 2002-2012.
+#
+# Updated for gnome-mines:
+#
+# Changwoo Ryu <cwryu@debian.org>, 2013.
+#
+#
+# 새로 번역하신 분은 아래 "translator-credits"에 추가하세요.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"mines&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-07-26 06:40+0000\n"
+"PO-Revision-Date: 2013-09-14 21:22+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/gnomine.desktop.in.in.h:1 ../src/gnome-mines.vala:95
+#: ../src/gnome-mines.vala:139 ../src/gnome-mines.vala:771
+msgid "Mines"
+msgstr "지뢰찾기"
+
+#: ../data/gnomine.desktop.in.in.h:2
+msgid "Clear hidden mines from a minefield"
+msgstr "지뢰밭에서 숨겨진 지뢰를 제거합니다"
+
+#: ../data/gnomine.desktop.in.in.h:3
+msgid "minesweeper;"
+msgstr "minesweeper;지뢰찾기;"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:1
+msgid "Use the unknown flag"
+msgstr "알 수 없음 깃발 사용"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:2
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "참으로 설정하면, 지뢰인지 아닌지 알 수 없는 칸을 표시할 수 있습니다."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:3
+msgid "Warning about too many flags"
+msgstr "너무 깃발이 많을 때 경고"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:4
+msgid "Set to true to enable warning icons when too many flags are placed."
+msgstr "참이면 너무 깃발을 많이 만들었을 때 경고 아이콘을 표시합니다."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:5
+msgid "Display border around numbers"
+msgstr "숫자 주위에 테두리 표시"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:6
+msgid "Set to true to display a border around mine indication numbers."
+msgstr "참이면 지뢰 안내 숫자 주위에 테두리를 표시합니다."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:7
+msgid "Enable automatic placing of flags"
+msgstr "자동으로 깃발 놓기 사용"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:8
+msgid ""
+"Set to true to automatically flag squares as mined when enough squares are "
+"revealed"
+msgstr ""
+"참이면 주위 칸이 충분히 알려졌을 때 자동으로 해당 칸을 지뢰로 표시합니다"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:9
+msgid "Number of columns in a custom game"
+msgstr "사용자 설정의 가로 크기"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:10
+msgid "Number of rows in a custom game"
+msgstr "사용자 설정의 세로 크기"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:11
+msgid "The number of mines in a custom game"
+msgstr "사용자 설정 게임에서 지뢰 개수"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:12
+msgid "Board size"
+msgstr "보드 크기"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:13
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "보드의 크기(0-2 = 작게-크게, 3=사용자 설정)"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:14
+msgid "Width of the window in pixels"
+msgstr "창의 너비, 픽셀 단위."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:15
+msgid "Height of the window in pixels"
+msgstr "창의 높이, 픽셀 단위."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:16
+msgid "true if the window is maximized"
+msgstr "참이면 창을 최대화"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:17
+msgid "true if the window is fullscren"
+msgstr "참이면 창을 전체 화면"
+
+#: ../src/gnome-mines.vala:114
+msgid "_New Game"
+msgstr "새 게임(_N)"
+
+#: ../src/gnome-mines.vala:115
+msgid "_Replay Size"
+msgstr "리플레이 크기(_R)"
+
+#: ../src/gnome-mines.vala:116
+msgid "_Hint"
+msgstr "힌트(_H)"
+
+#: ../src/gnome-mines.vala:117 ../src/gnome-mines.vala:199
+#: ../src/gnome-mines.vala:673 ../src/gnome-mines.vala:679
+#: ../src/gnome-mines.vala:680
+msgid "_Pause"
+msgstr "일시 중지(_P)"
+
+#: ../src/gnome-mines.vala:118 ../src/gnome-mines.vala:206
+#: ../src/gnome-mines.vala:393
+msgid "_Fullscreen"
+msgstr "전체 화면(_F)"
+
+#: ../src/gnome-mines.vala:119
+msgid "_Scores"
+msgstr "점수(_S)"
+
+#: ../src/gnome-mines.vala:120
+msgid "_Preferences"
+msgstr "기본 설정(_P)"
+
+#: ../src/gnome-mines.vala:123
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../src/gnome-mines.vala:124
+msgid "_About"
+msgstr "정보(_A)"
+
+#: ../src/gnome-mines.vala:127
+msgid "_Quit"
+msgstr "끝내기(_Q)"
+
+#: ../src/gnome-mines.vala:182
+msgid "_New"
+msgstr "새 게임(_N)"
+
+#: ../src/gnome-mines.vala:191
+msgid "Hint"
+msgstr "힌트"
+
+#: ../src/gnome-mines.vala:256
+msgid "Field Size"
+msgstr "지뢰밭 크기"
+
+#: ../src/gnome-mines.vala:299
+msgid "Custom"
+msgstr "사용자 설정"
+
+#: ../src/gnome-mines.vala:317
+msgid "H_orizontal:"
+msgstr "가로(_O):"
+
+#: ../src/gnome-mines.vala:327
+msgid "_Vertical:"
+msgstr "세로(_V):"
+
+#: ../src/gnome-mines.vala:337
+msgid "_Number of mines:"
+msgstr "지뢰의 갯수(_N):"
+
+#: ../src/gnome-mines.vala:358
+msgid "_Play Game"
+msgstr "게임 플레이(_P)"
+
+#: ../src/gnome-mines.vala:388
+msgid "_Leave Fullscreen"
+msgstr "전체 화면 나가기(_L)"
+
+#: ../src/gnome-mines.vala:419
+#, c-format
+msgid "<b>%d</b> mine"
+msgid_plural "<b>%d</b> mines"
+msgstr[0] "지뢰 <b>%d</b>개"
+
+#: ../src/gnome-mines.vala:484
+#, c-format
+msgid "Flags: %u/%u"
+msgstr "깃발: %u/%u"
+
+#: ../src/gnome-mines.vala:527
+msgid "Do you want to start a new game?"
+msgstr "새 게임을 시작하시겠습니까?"
+
+#: ../src/gnome-mines.vala:528
+msgid "If you start a new game, your current progress will be lost."
+msgstr "새 게임을 시작하면 현재 진행 상황을 잃어버립니다."
+
+#: ../src/gnome-mines.vala:529
+msgid "Keep Current Game"
+msgstr "현재 게임 유지"
+
+#: ../src/gnome-mines.vala:530
+msgid "Start New Game"
+msgstr "새 게임 시작"
+
+#: ../src/gnome-mines.vala:669 ../src/gnome-mines.vala:671
+msgid "Res_ume"
+msgstr "다시 시작(_U)"
+
+#: ../src/gnome-mines.vala:720 ../src/gnome-mines.vala:1040
+#, c-format
+msgid "Time"
+msgstr "시간"
+
+#: ../src/gnome-mines.vala:737
+msgid "Main game:"
+msgstr "주 게임:"
+
+#: ../src/gnome-mines.vala:742
+msgid "Score:"
+msgstr "점수:"
+
+#: ../src/gnome-mines.vala:745
+msgid "Resizing and SVG support:"
+msgstr "크기 바꾸기 및 SVG 지원:"
+
+#: ../src/gnome-mines.vala:753
+msgid "Faces:"
+msgstr "모양:"
+
+#: ../src/gnome-mines.vala:757
+msgid "Graphics:"
+msgstr "그래픽:"
+
+#: ../src/gnome-mines.vala:774
+msgid ""
+"The popular logic puzzle minesweeper. Clear mines from a board using hints "
+"from squares you have already uncovered.\n"
+"\n"
+"Mines is a part of GNOME Games."
+msgstr ""
+"유명한 지뢰찾기 퍼즐게임. 이미 처리한 곳의 정보를 이용해서 지뢰를 처리합니"
+"다.\n"
+"\n"
+"지뢰찾기는 그놈 게임의 일부입니다."
+
+#: ../src/gnome-mines.vala:781
+msgid "translator-credits"
+msgstr "류창우 <cwryu@debian.org>"
+
+#: ../src/gnome-mines.vala:784
+msgid "GNOME Games web site"
+msgstr "그놈 게임 웹사이트"
+
+#: ../src/gnome-mines.vala:855
+msgid "Mines Preferences"
+msgstr "지뢰찾기 기본 설정"
+
+#: ../src/gnome-mines.vala:873
+msgid "_Use \"I'm not sure\" flags"
+msgstr "\"잘 모르겠군\" 깃발 사용(_U)"
+
+#: ../src/gnome-mines.vala:879
+msgid "_Warn if too many flags have been placed"
+msgstr "너무 깃발을 많이 놓았을 때 경고(_W)"
+
+#: ../src/gnome-mines.vala:885
+msgid "_Display numbers with border"
+msgstr "숫자에 테두리 표시(_D)"
+
+#: ../src/gnome-mines.vala:996
+msgid "New Game"
+msgstr "새 게임"
+
+#: ../src/gnome-mines.vala:1012
+msgid "Size:"
+msgstr "크기:"
+
+#: ../src/gnome-mines.vala:1037
+msgid "Date"
+msgstr "시각"
+
+#: ../src/gnome-mines.vala:1122
+#, c-format
+msgid "%u × %u, %u mine"
+msgid_plural "%u × %u, %u mines"
+msgstr[0] "%u × %u, 지뢰 %u개"
+
+#: ../src/minefield-view.vala:578
+msgid "Paused"
+msgstr "일시 중지"

@@ -1,0 +1,63 @@
+GNOME Mines 3.10.1
+==================
+
+* Remove "Hint" action from app menu
+* Translation updates
+
+GNOME Mines 3.10.0
+==================
+
+* Translation updates
+
+GNOME Mines 3.9.92
+==================
+
+* Add appdata file
+* Translation updates
+
+GNOME Mines 3.9.90
+==================
+
+* Fix crash when releasing buttons outside minefield
+* Resize the window when switching to a smaller minefield
+* Fix broken links and typos in user help
+* Fix name of app menu when not launched by GNOME Shell
+* Translation updates
+
+gnome-mines 3.8.0
+=================
+
+ * Translation updates
+
+gnome-mines 3.7.92
+====================
+
+* Renamed desktop file back to gnomine.dekstop
+* Increase number visibility
+* Keyboard support
+* Translations
+
+gnome-mines 3.7.5
+====================
+
+* Translations
+
+gnome-mines 3.7.4
+====================
+
+* Translations
+
+Contributions from: Alexander Shopov, Balázs Úr, Daniel Mustieles, Fran Diéguez,
+Matej Urbančič, Piotr Drąg, Yaron Shahrabani.
+
+gnome-mines 3.7.2
+====================
+
+* Fixed the build
+
+Contributions from: Piotr Drąg, Robert Ancell
+
+gnome-mines 3.7.0
+====================
+
+First release split from gnome-games

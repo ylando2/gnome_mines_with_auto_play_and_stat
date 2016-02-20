@@ -1,0 +1,330 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 1998-2002.
+# Marcin Gorycki <mgo@olicom.dk>, 1999.
+# Tomasz Kłoczko <kloczek@rudy.mif.pg.gda.pl>, 2000.
+# Artur Flinta <aflinta@gmail.com>, 2003-2007.
+# Bartosz Kosiorek <gang65@poczta.onet.pl>, 2005-2008.
+# Michał Bentkowski <mr.ecik@gmail.com>, 2006.
+# Andrzej Polatyński <andrzej@datatel.net.pl>, 2006.
+# Wadim Dziedzic <wdziedzic@aviary.pl>, 2007-2009.
+# Tomasz Dominikowski <dominikowski@gmail.com>, 2008.
+# Joanna Mazgaj <jmazgaj@aviary.pl>, 2009-2010.
+# Wojciech Kapusta <wkapusta@aviary.pl>, 2009.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mines\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-24 03:07+0200\n"
+"PO-Revision-Date: 2013-08-24 03:08+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../data/gnomine.desktop.in.in.h:1 ../src/gnome-mines.vala:98
+#: ../src/gnome-mines.vala:142 ../src/gnome-mines.vala:778
+msgid "Mines"
+msgstr "Miny"
+
+#: ../data/gnomine.desktop.in.in.h:2
+msgid "Clear hidden mines from a minefield"
+msgstr "Oczyszczanie pola minowego z ukrytych min"
+
+#: ../data/gnomine.desktop.in.in.h:3
+msgid "minesweeper;"
+msgstr "minesweeper;saper;"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:1
+msgid "Use the unknown flag"
+msgstr "Użycie nieznanej flagi"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:2
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "Określa, czy można oznaczać pola jako nieznane."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:3
+msgid "Warning about too many flags"
+msgstr "Ostrzeżenie o zbyt dużej liczbie flag"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:4
+msgid "Set to true to enable warning icons when too many flags are placed."
+msgstr "Włącza ostrzeżenie po umieszczeniu zbyt dużej ilości flag na planszy."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:5
+msgid "Display border around numbers"
+msgstr "Wyświetlanie ramek wokół liczb"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:6
+msgid "Set to true to display a border around mine indication numbers."
+msgstr "Włącza wyświetlanie ramek wokół liczb wskazujących ilość min."
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:7
+msgid "Enable automatic placing of flags"
+msgstr "Włączenie automatycznego umieszczania flag"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:8
+msgid ""
+"Set to true to automatically flag squares as mined when enough squares are "
+"revealed"
+msgstr ""
+"Włączenie powoduje automatyczne flagowanie kwadratów jako zaminowanych, "
+"jeśli odkryta jest ich odpowiednia liczba"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:9
+msgid "Number of columns in a custom game"
+msgstr "Liczba kolumn w standardowej grze"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:10
+msgid "Number of rows in a custom game"
+msgstr "Liczba rzędów w standardowej grze"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:11
+msgid "The number of mines in a custom game"
+msgstr "Liczba min we własnej grze"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:12
+msgid "Board size"
+msgstr "Rozmiar planszy"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:13
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Rozmiar planszy (0-2 = mała-duża, 3 = własna)"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:14
+msgid "Width of the window in pixels"
+msgstr "Szerokość okna w pikselach"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:15
+msgid "Height of the window in pixels"
+msgstr "Wysokość okna w pikselach"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:16
+msgid "true if the window is maximized"
+msgstr "Wartość \"true\" oznacza, że okno jest zmaksymalizowane"
+
+#: ../data/org.gnome.mines.gschema.xml.in.h:17
+msgid "true if the window is fullscren"
+msgstr "Wartość \"true\" oznacza, że okno jest pełnoekranowe"
+
+#: ../src/gnome-mines.vala:117
+msgid "_New Game"
+msgstr "_Nowa gra"
+
+#: ../src/gnome-mines.vala:118
+msgid "_Replay Size"
+msgstr "_Powtarzanie rozmiaru"
+
+#: ../src/gnome-mines.vala:119
+msgid "_Hint"
+msgstr "Po_dpowiedź"
+
+#: ../src/gnome-mines.vala:120 ../src/gnome-mines.vala:202
+#: ../src/gnome-mines.vala:680 ../src/gnome-mines.vala:686
+#: ../src/gnome-mines.vala:687
+msgid "_Pause"
+msgstr "W_strzymaj"
+
+#: ../src/gnome-mines.vala:121 ../src/gnome-mines.vala:209
+#: ../src/gnome-mines.vala:398
+msgid "_Fullscreen"
+msgstr "_Pełny ekran"
+
+#: ../src/gnome-mines.vala:122
+msgid "_Scores"
+msgstr "_Wyniki"
+
+#: ../src/gnome-mines.vala:123
+msgid "_Preferences"
+msgstr "P_referencje"
+
+#: ../src/gnome-mines.vala:126
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../src/gnome-mines.vala:127
+msgid "_About"
+msgstr "_O grze"
+
+#: ../src/gnome-mines.vala:130
+msgid "_Quit"
+msgstr "Za_kończ"
+
+#: ../src/gnome-mines.vala:185
+msgid "_New"
+msgstr "_Nowa"
+
+#: ../src/gnome-mines.vala:194
+msgid "Hint"
+msgstr "Podpowiedź"
+
+#: ../src/gnome-mines.vala:259
+msgid "Field Size"
+msgstr "Rozmiar pola"
+
+#: ../src/gnome-mines.vala:302
+msgid "Custom"
+msgstr "Własny"
+
+#: ../src/gnome-mines.vala:320
+msgid "H_orizontal:"
+msgstr "P_oziomo:"
+
+#: ../src/gnome-mines.vala:330
+msgid "_Vertical:"
+msgstr "Pio_nowo:"
+
+#: ../src/gnome-mines.vala:340
+msgid "_Number of mines:"
+msgstr "L_iczba min:"
+
+#: ../src/gnome-mines.vala:361
+msgid "_Play Game"
+msgstr "_Rozpocznij grę"
+
+#: ../src/gnome-mines.vala:393
+msgid "_Leave Fullscreen"
+msgstr "_Opuść tryb pełnoekranowy"
+
+#: ../src/gnome-mines.vala:424
+#, c-format
+msgid "<b>%d</b> mine"
+msgid_plural "<b>%d</b> mines"
+msgstr[0] "<b>%d</b> mina"
+msgstr[1] "<b>%d</b> miny"
+msgstr[2] "<b>%d</b> min"
+
+#: ../src/gnome-mines.vala:489
+#, c-format
+msgid "Flags: %u/%u"
+msgstr "Flagi: %u/%u"
+
+#: ../src/gnome-mines.vala:532
+msgid "Do you want to start a new game?"
+msgstr "Rozpocząć nową grę?"
+
+#: ../src/gnome-mines.vala:533
+msgid "If you start a new game, your current progress will be lost."
+msgstr "Obecna gra zostanie utracona po rozpoczęciu nowej."
+
+#: ../src/gnome-mines.vala:534
+msgid "Keep Current Game"
+msgstr "Kontynuuj bieżącą grę"
+
+#: ../src/gnome-mines.vala:535
+msgid "Start New Game"
+msgstr "Rozpocznij nową grę"
+
+#: ../src/gnome-mines.vala:676 ../src/gnome-mines.vala:678
+msgid "Res_ume"
+msgstr "_Ponów"
+
+#: ../src/gnome-mines.vala:727 ../src/gnome-mines.vala:1050
+#, c-format
+msgid "Time"
+msgstr "Czas"
+
+#: ../src/gnome-mines.vala:744
+msgid "Main game:"
+msgstr "Główna gra:"
+
+#: ../src/gnome-mines.vala:749
+msgid "Score:"
+msgstr "Punkty:"
+
+#: ../src/gnome-mines.vala:752
+msgid "Resizing and SVG support:"
+msgstr "Skalowanie i obsługa plików SVG:"
+
+#: ../src/gnome-mines.vala:760
+msgid "Faces:"
+msgstr "Twarze:"
+
+#: ../src/gnome-mines.vala:764
+msgid "Graphics:"
+msgstr "Grafika:"
+
+#: ../src/gnome-mines.vala:781
+msgid ""
+"The popular logic puzzle minesweeper. Clear mines from a board using hints "
+"from squares you have already uncovered.\n"
+"\n"
+"Mines is a part of GNOME Games."
+msgstr ""
+"Popularna gra logiczna. Należy oczyścić planszę z min, korzystając z "
+"podpowiedzi znajdujących się na odkrytych polach.\n"
+"\n"
+"Gra Miny jest częścią gier GNOME."
+
+#: ../src/gnome-mines.vala:788
+msgid "translator-credits"
+msgstr ""
+"Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 1998-2002\n"
+"Marcin Gorycki <mgo@olicom.dk>, 1999\n"
+"Tomasz Kłoczko <kloczek@rudy.mif.pg.gda.pl>, 2000\n"
+"Artur Flinta <aflinta@gmail.com>, 2003-2007\n"
+"Bartosz Kosiorek <gang65@poczta.onet.pl>, 2005-2008\n"
+"Michał Bentkowski <mr.ecik@gmail.com>, 2006\n"
+"Andrzej Polatyński <andrzej@datatel.net.pl>, 2006\n"
+"Wadim Dziedzic <wdziedzic@aviary.pl>, 2007-2009\n"
+"Tomasz Dominikowski <dominikowski@gmail.com>, 2008\n"
+"Joanna Mazgaj <jmazgaj@aviary.pl>, 2009-2010\n"
+"Wojciech Kapusta <wkapusta@aviary.pl>, 2009\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2013\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2007-2013"
+
+#: ../src/gnome-mines.vala:791
+msgid "GNOME Games web site"
+msgstr "Witryna gier GNOME"
+
+#: ../src/gnome-mines.vala:862
+msgid "Mines Preferences"
+msgstr "Preferencje gry Miny"
+
+#: ../src/gnome-mines.vala:880
+msgid "_Use \"I'm not sure\" flags"
+msgstr "_Flaga \"Niepewność\""
+
+#: ../src/gnome-mines.vala:886
+msgid "_Warn if too many flags have been placed"
+msgstr "_Ostrzeganie o zbyt dużej liczbie flag"
+
+#: ../src/gnome-mines.vala:892
+msgid "_Display numbers with border"
+msgstr "_Wyświetlanie ramek wokół liczb"
+
+#: ../src/gnome-mines.vala:1006
+msgid "New Game"
+msgstr "Nowa gra"
+
+#: ../src/gnome-mines.vala:1022
+msgid "Size:"
+msgstr "Rozmiar:"
+
+#: ../src/gnome-mines.vala:1047
+msgid "Date"
+msgstr "Data"
+
+#: ../src/gnome-mines.vala:1132
+#, c-format
+msgid "%u × %u, %u mine"
+msgid_plural "%u × %u, %u mines"
+msgstr[0] "%u × %u, %u mina"
+msgstr[1] "%u × %u, %u miny"
+msgstr[2] "%u × %u, %u min"
+
+#: ../src/minefield-view.vala:578
+msgid "Paused"
+msgstr "Wstrzymano"

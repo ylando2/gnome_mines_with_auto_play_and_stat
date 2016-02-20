@@ -1,0 +1,98 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="question"
+      id="flags">
+  <info>
+
+    <link type="guide" xref="index#play"/>
+    <revision version="0.1" date="2012-08-12" status="review"/>
+    <revision pkgversion="3.5.5" date="2012-08-12" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <credit type="author">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2012</years>
+    </credit>
+
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+  </info>
+
+  <title>How to use flags</title>
+  <table>
+  <tr>
+   <td>
+     <media type="image" mime="image/svg" src="figures/flags.png"/>
+   </td>
+   <td>
+     <p>Flags are used to mark tiles which you suspect may hide a mine. Putting
+     a flag on a tile prevents you from clicking on it and possibly causing an
+     explosion, which would end the game.</p>
+    </td>
+   </tr>
+  </table>
+
+  <section id="flags-put">
+    <title>How to place a flag on a tile</title>
+    <table>
+      <tr>
+        <td>
+	  <p>Red flags are those that cannot be clicked. To place a red flag on
+	  a tile:</p>
+          <list>
+            <item><p>right click on a blank tile.</p></item>
+          </list>
+        </td>
+        <td>
+          <media type="image" mime="image/svg" width="60" src="figures/flag.svg"/>
+        </td>
+        </tr>
+      </table>
+
+      <note style="tip">
+	<p>To make the number of available flags equal to the number of
+	remaining mines, enable <gui style="checkbox">Warn if too many flags
+	placed</gui> and <gui style="checkbox">Use "I'm not sure" flags</gui>
+	preference options, then restart the application.<!-- This is a bug!
+	The warnings do not work properly at the moment.--></p>
+     </note>
+
+  </section>
+
+  <section id="flags-blue">
+    <title>Use of the <em>I'm not sure</em> flag</title>
+    <p>If you are not sure whether a tile hides a mine, you can use the blue
+    <em>I'm not sure</em> flag.</p>
+    <table>
+      <tr>
+        <td>
+          <p>To put an <em>I'm not sure</em> flag on a tile:</p>
+          <list>
+	    <item><p>Right-click twice on a blank tile or once on a red
+	    flag.</p></item>
+          </list>
+        </td>
+        <td>
+          <media type="image" mime="image/svg" width="60" src="figures/flag-question.svg"/>
+        </td>
+      </tr>
+    </table>
+
+  <note>
+    <p>To enable these flags, click <guiseq><gui style="manu">Mines</gui><gui
+    style="menuitem">Preferences</gui></guiseq>, and select <gui>Use "I'm not
+    sure" flags</gui>.</p>
+  </note>
+
+  </section>
+  
+</page>

@@ -1,0 +1,886 @@
+# Czech translation of gnomine help.
+# Copyright (C) 2009 the author(s) of gnome-games.
+# This file is distributed under the same license as the gnomine help.
+# Marek Černocký <marek@manet.cz>, 2009, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games gnome-2-28\n"
+"POT-Creation-Date: 2013-06-01 17:16+0000\n"
+"PO-Revision-Date: 2013-07-26 08:25+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>, 2009, 2013"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:4(media)
+msgctxt "_"
+msgid "external ref='figures/logo.png' md5='5a979e829d14ad935a9f3e81318a5a36'"
+msgstr "external ref='figures/logo.png' md5='5a979e829d14ad935a9f3e81318a5a36'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:22(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/logo32.png' md5='aef7085887ecce229ad39e3f43268a8b'"
+msgstr ""
+"external ref='figures/logo32.png' md5='aef7085887ecce229ad39e3f43268a8b'"
+
+#: C/index.page:6(info/title)
+msgctxt "link"
+msgid "GNOME Mines"
+msgstr "Miny GNOME"
+
+#: C/index.page:7(info/title)
+msgctxt "text"
+msgid "GNOME Mines"
+msgstr "Miny GNOME"
+
+#: C/index.page:10(credit/name) C/shortcuts.page:9(credit/name)
+msgid "Brian Grohe"
+msgstr "Brian Grohe"
+
+#: C/index.page:14(credit/name) C/board-size.page:15(credit/name)
+#: C/documentation.page:14(credit/name) C/flags.page:23(credit/name)
+#: C/get-help.page:14(credit/name) C/high-scores.page:15(credit/name)
+#: C/new-game.page:16(credit/name) C/rules.page:16(credit/name)
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#: C/index.page:18(license/p) C/bug-filing.page:14(license/p)
+#: C/develop.page:15(license/p) C/documentation.page:23(license/p)
+#: C/translate.page:19(license/p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: C/index.page:22(page/title)
+msgid ""
+"<media type=\"image\" src=\"figures/logo32.png\">GNOME Mines logo</media> "
+"GNOME Mines"
+msgstr ""
+"<media type=\"image\" src=\"figures/logo32.png\">Logo hry Miny GNOME</media> "
+"Miny GNOME"
+
+#: C/index.page:24(page/p)
+msgid ""
+"<app>Mines</app> is a clone of the game Minesweeper. The aim is to locate "
+"all the mines that are hidden under tiles on a rectangular board. You will "
+"need to use a combination of logic and luck to find all the mines without "
+"triggering an explosion."
+msgstr ""
+"<app>Miny</app> jsou klonem hry Minesweeper (v češtině pojmenované Hledání "
+"min). Jejím cílem je najít všechny miny, které jsou jsou ukryté pod "
+"dlaždicemi čtvercové hrací desky. Abyste našli všechny miny, aniž by vám "
+"některá vybuchla, musíte použít kombinaci logiky a trochy štěstí."
+
+#: C/index.page:31(section/title)
+msgid "Game Play"
+msgstr "Hraní hry"
+
+#: C/index.page:34(section/title)
+msgid "Useful tips"
+msgstr "Užitečné tipy"
+
+#: C/index.page:37(section/title)
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: C/index.page:40(section/title)
+msgid "Get Involved"
+msgstr "Zapojte se"
+
+#: C/board-size.page:10(credit/name) C/faces.page:9(credit/name)
+#: C/flags.page:17(credit/name) C/get-help.page:9(credit/name)
+#: C/high-scores.page:10(credit/name) C/new-game.page:11(credit/name)
+#: C/rules.page:11(credit/name)
+msgid "Baptiste Mille-Mathias"
+msgstr "Baptiste Mille-Mathias"
+
+#: C/board-size.page:12(credit/years) C/bug-filing.page:11(credit/years)
+#: C/develop.page:12(credit/years) C/documentation.page:11(credit/years)
+#: C/faces.page:11(credit/years) C/get-help.page:11(credit/years)
+#: C/rules.page:13(credit/years) C/translate.page:12(credit/years)
+msgid "2011"
+msgstr "2011"
+
+#: C/board-size.page:17(credit/years) C/documentation.page:16(credit/years)
+#: C/flags.page:13(credit/years) C/flags.page:19(credit/years)
+#: C/flags.page:25(credit/years) C/get-help.page:16(credit/years)
+#: C/high-scores.page:12(credit/years) C/high-scores.page:17(credit/years)
+#: C/new-game.page:13(credit/years) C/new-game.page:18(credit/years)
+#: C/rules.page:18(credit/years) C/shortcuts.page:11(credit/years)
+#: C/toolbar.page:10(credit/years)
+msgid "2012"
+msgstr "2012"
+
+#: C/board-size.page:22(page/title)
+msgid "How to change the game board size"
+msgstr "Jak změnit velikost hrací desky"
+
+#: C/board-size.page:24(page/p)
+msgid "You can select a field size at the start of a new game."
+msgstr "Velikost hrací desky si můžete vybrat na začátku nové hry."
+
+#: C/board-size.page:28(item/p)
+msgid ""
+"Click <gui style=\"button\">New</gui> or <guiseq><gui style=\"menu\">Mines</"
+"gui> <gui style=\"menuitem\">New Game</gui></guiseq>."
+msgstr ""
+"Klikněte na <gui style=\"button\">Nová</gui> nebo <guiseq><gui style=\"menu"
+"\">Miny</gui> <gui style=\"menuitem\">Nová hra</gui></guiseq>."
+
+#: C/board-size.page:33(item/p)
+msgid "Select one of the grid sizes:"
+msgstr "Vyberte jednu z velikostí mřížky:"
+
+#: C/board-size.page:35(item/p)
+msgid "a 8 × 8 board with 10 mines"
+msgstr "deska 8 × 8 s 10 minami"
+
+#: C/board-size.page:36(item/p)
+msgid "a 16 × 16 board with 40 mines"
+msgstr "deska 16 × 16 se 40 minami"
+
+#: C/board-size.page:37(item/p)
+msgid "a 30 × 16 board with 99 mines"
+msgstr "deska 30 × 16 s 99 minami"
+
+#: C/board-size.page:38(item/p)
+msgid "a custom board, where you chose the size and the number of mines"
+msgstr "vlastní deska, kdy si můžete zvolit velikost desky a počet min"
+
+#: C/bug-filing.page:9(credit/name) C/develop.page:10(credit/name)
+#: C/documentation.page:9(credit/name) C/flags.page:11(credit/name)
+#: C/toolbar.page:8(credit/name) C/translate.page:10(credit/name)
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
+
+#: C/bug-filing.page:18(page/title)
+msgid "Help make <app>Mines</app> better"
+msgstr "Pomozte vylepšovat hru <app>Miny</app>"
+
+#: C/bug-filing.page:21(section/title)
+msgid "Report a bug or suggest an improvement"
+msgstr "Hlaste chyby nebo navrhujte vylepšení"
+
+#: C/bug-filing.page:22(section/p)
+msgid ""
+"<app>Mines</app> is maintained by a volunteer community. You are welcome to "
+"participate. If you notice a problem you can file a <em>bug report</em>. To "
+"file a bug, go to <link href=\"https://bugzilla.gnome.org/\"/>."
+msgstr ""
+"O hru <app>Miny</app> se stará komunita dobrovolníků. Vaše případná účast "
+"bude vítána. Pokud si povšimnete nějakého problému, můžete vyplnit "
+"<em>chybové hlášení</em> na <link href=\"https://bugzilla.gnome.org/\"/>."
+
+#: C/bug-filing.page:25(section/p)
+msgid ""
+"This is a bug tracking system where users and developers can file details "
+"about bugs and crashes, or request enhancements."
+msgstr ""
+"Jedná se o systém ke sledování chyb, kde uživatelé a vývojáři mohou uvádět "
+"podrobnosti k dané chybě nebo žádosti o vylepšení. Komunikace probíhá v "
+"angličtině."
+
+#: C/bug-filing.page:28(section/p)
+msgid ""
+"To participate you need an account, which will give you the ability to gain "
+"access, file bugs, make comments, and receive updates by e-mail about the "
+"status of your bug. If you don't already have an account, just click on the "
+"<gui>New Account</gui> link to create one."
+msgstr ""
+"Abyste se mohli zapojit, musíte si vytvořit účet, díky kterému získáte "
+"přistup, můžete hlásit chyby a psát komentáře. Registraci potřebujete také k "
+"tomu, aby vám přicházely na e-mail informace o stavu vaší chyby. Jestli účet "
+"zatím nemáte, stačí pro vytvoření kliknout na odkaz <gui>Nový účet</gui>."
+
+#: C/bug-filing.page:32(section/p)
+msgid ""
+"Once you have an account, log in, click on <guiseq><gui>File a Bug</"
+"gui><gui>Applications</gui><gui>gnome-mines</gui></guiseq>. Before reporting "
+"a bug, please read the <link href=\"https://bugzilla.gnome.org/page.cgi?"
+"id=bug-writing.html\">bug writing guidelines</link>, and please <link href="
+"\"https://bugzilla.gnome.org/browse.cgi?product=gnome-mines\">browse</link> "
+"for the bug to see if it already exists."
+msgstr ""
+"Když už účet máte, přihlaste se, klikněte na <guiseq><gui>File a Bug</"
+"gui><gui>Applications</gui><gui>gnome-mines</gui></guiseq>. Před nahlášením "
+"chyby si prosím přečtěte <link href=\"https://bugzilla.gnome.org/page.cgi?"
+"id=bug-writing.html\">přiručku k hlášení chyb</link> (odkaz je v angličtině) "
+"a <link href=\"https://bugzilla.gnome.org/browse.cgi?product=gnome-mines"
+"\">podívejte</link> se prosím, jestli stejnou chybu nenahlásil už někdo jiný."
+
+#: C/bug-filing.page:40(section/p)
+msgid ""
+"If you are requesting a new feature, choose <gui>enhancement</gui> in the "
+"<gui>Severity</gui> menu. Fill in the Summary and Description sections and "
+"click <gui>Commit</gui>."
+msgstr ""
+"V případě, že žádáte o novou funkčnost, zvolte v nabídce <gui>Severity</gui> "
+"položku <gui>enhancement</gui>. Vyplňte pole Summary a Description a "
+"klikněte na <gui>Commit</gui>."
+
+#: C/bug-filing.page:44(section/p)
+msgid ""
+"Your report will be given an ID number, and its status will be updated as it "
+"is being dealt with. Thanks for helping make <app>Mines</app> better!"
+msgstr ""
+"Vaše hlášení dostane přiděleno identifikační číslo a jak bude postupně "
+"řešeno, bude se měnit jeho stav."
+
+#: C/develop.page:19(page/title)
+msgid "Help develop"
+msgstr "Pomozte s vývojem"
+
+#: C/develop.page:20(page/p)
+msgid ""
+"The <app>GNOME Games</app> are developed and maintained by a volunteer "
+"community. You are welcome to participate."
+msgstr ""
+"<app>Hry GNOME</app> jsou vyvíjeny a udržovány komunitou dobrovolníků. Vaše "
+"případná účast bude vítána."
+
+#: C/develop.page:23(page/p)
+msgid ""
+"If you would like to <link href=\"https://live.gnome.org/GnomeGames/"
+"Contributing\">help develop <app>GNOME Games</app></link>, you can get in "
+"touch with the developers using <link href=\"https://cbe005.chat.mibbit.com/?"
+"url=irc%3A%2F%2Firc.gnome.org%2Fgnome-games\">irc</link>, or via our <link "
+"href=\"http://mail.gnome.org/mailman/listinfo/games-list\">mailing list</"
+"link>."
+msgstr ""
+"Jestli chcete <link href=\"https://live.gnome.org/GnomeGames/Contributing"
+"\">pomoci s vývojem <app>her GNOME</app></link>, můžete se s vývojáři "
+"kontaktovat na <link href=\"https://cbe005.chat.mibbit.com/?url=irc%3A%2F"
+"%2Firc.gnome.org%2Fgnome-games\">IRC</link> nebo přes <link href=\"http://"
+"mail.gnome.org/mailman/listinfo/games-list\">poštovní konferenci</link>. Ke "
+"komunikaci se používá angličtina."
+
+#: C/documentation.page:19(credit/name) C/faces.page:15(credit/name)
+#: C/new-game.page:21(credit/name)
+msgid "Aruna Sankaranarayanan"
+msgstr "Aruna Sankaranarayanan"
+
+#: C/documentation.page:27(page/title)
+msgid "Help write documentation"
+msgstr "Pomozte psát dokumentaci"
+
+#: C/documentation.page:29(page/p)
+msgid ""
+"The GNOME Games user help is maintained by a volunteer community. You are "
+"welcome to participate."
+msgstr ""
+"O dokumentaci <app>her GNOME</app> se stará komunitou dobrovolníků. Vaše "
+"případná účast bude vítána."
+
+#: C/documentation.page:32(page/p)
+msgid ""
+"To contribute to the Documentation Project, get in touch with us on the "
+"<link href=\"https://client01.chat.mibbit.com/?url=irc%3A%2F%2Firc.gnome.org"
+"%2Fdocs\">#docs</link> channel on <link href=\"http://live.gnome.org/"
+"GnomeIrcChannels\">irc.gnome.org</link> or via our <link href=\"http://mail."
+"gnome.org/mailman/listinfo/gnome-doc-list\">mailing list</link> ."
+msgstr ""
+"Jestli chcete přispívat do Dokumentačního projektu, nebojte se nás "
+"kontaktovat na <link href=\"https://cbe003.chat.mibbit.com/?url=irc%3A%2F"
+"%2Firc.gnome.org%2Fdocs\">IRC</link> nebo přes <link href=\"http://mail."
+"gnome.org/mailman/listinfo/gnome-doc-list\">poštovní konferenci</link>. Ke "
+"komunikaci se používá angličtina."
+
+#: C/documentation.page:40(page/p)
+msgid ""
+"Our <link href=\"https://live.gnome.org/DocumentationProject/Contributing"
+"\">wiki</link> page contains useful information."
+msgstr ""
+"Užitečné informace obsahuje naše <link href=\"https://live.gnome.org/"
+"DocumentationProject/Contributing\">wikistránka</link>."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/faces.page:24(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/face-smile.svg' md5='6a6254c55d6e76f65007dfef107f4019'"
+msgstr ""
+"external ref='figures/face-smile.svg' md5='6a6254c55d6e76f65007dfef107f4019'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/faces.page:28(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/face-worried.svg' "
+"md5='f0a66a1c5046deef93c14eeb9993b367'"
+msgstr ""
+"external ref='figures/face-worried.svg' "
+"md5='f0a66a1c5046deef93c14eeb9993b367'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/faces.page:32(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/face-sad.svg' md5='9e02c857add1e6a859e14a89cf0b83ae'"
+msgstr ""
+"external ref='figures/face-sad.svg' md5='9e02c857add1e6a859e14a89cf0b83ae'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/faces.page:36(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/face-cool.svg' md5='6ce4a904009988e203e3d50896f6016e'"
+msgstr ""
+"external ref='figures/face-cool.svg' md5='6ce4a904009988e203e3d50896f6016e'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/faces.page:40(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/face-win.svg' md5='5a18e37927cee8d20cfc5b37fbcb680b'"
+msgstr ""
+"external ref='figures/face-win.svg' md5='5a18e37927cee8d20cfc5b37fbcb680b'"
+
+#: C/faces.page:20(page/title)
+msgid "The meaning of the faces"
+msgstr "Význam smajlíků"
+
+#: C/faces.page:25(td/p)
+msgid "This is a new game and you have not clicked on any tile yet."
+msgstr "Jde o novou hru a zatím jste neklikli na žádnou dlaždici."
+
+#: C/faces.page:29(td/p)
+msgid "You are currently clicking on a tile."
+msgstr "Právě klikáte na dlaždici."
+
+#: C/faces.page:33(td/p)
+msgid "You have uncovered a mine. You lose."
+msgstr "Odhalili jste minu. Jste ztraceni."
+
+#: C/faces.page:37(td/p)
+msgid "The tile you just clicked on is safe. You can continue."
+msgstr "Dlaždice, na kterou jste klikli, je bezpečná. Můžete pokračovat."
+
+#: C/faces.page:41(td/p)
+msgid "You have found all the mines. You win!"
+msgstr "Našli jste všechny miny. Vyhráváte!"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/flags.page:34(media)
+#| msgid "@@image: 'figures/flags.png'; md5=21bb5789d11d2ea40515a4dfcfd597ca"
+msgctxt "_"
+msgid "external ref='figures/flags.png' md5='21bb5789d11d2ea40515a4dfcfd597ca'"
+msgstr ""
+"external ref='figures/flags.png' md5='21bb5789d11d2ea40515a4dfcfd597ca'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/flags.page:56(media)
+msgctxt "_"
+msgid "external ref='figures/flag.svg' md5='f9cc3827986004290dd5c61b02e18b73'"
+msgstr "external ref='figures/flag.svg' md5='f9cc3827986004290dd5c61b02e18b73'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/flags.page:85(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/flag-question.svg' "
+"md5='544c1aaa711ee86a03a817a1e3b57733'"
+msgstr ""
+"external ref='figures/flag-question.svg' "
+"md5='544c1aaa711ee86a03a817a1e3b57733'"
+
+#: C/flags.page:30(page/title)
+msgid "How to use flags"
+msgstr "Jak používat vlaječky"
+
+#: C/flags.page:37(td/p)
+msgid ""
+"Flags are used to mark tiles which you suspect may hide a mine. Putting a "
+"flag on a tile prevents you from clicking on it and possibly causing an "
+"explosion, which would end the game."
+msgstr ""
+"Vlaječky se používají k označení dlaždic, u kterých předpokládáte, že "
+"skrývají minu. Umístěním vlaječky zabráníte kliknutí na dlaždici a "
+"následnému způsobení výbuchu, který znamená konec hry."
+
+#: C/flags.page:45(section/title)
+msgid "How to place a flag on a tile"
+msgstr "Jak na dlaždici umístit vlaječku"
+
+#: C/flags.page:49(td/p)
+msgid ""
+"Red flags are those that cannot be clicked. To place a red flag on a tile:"
+msgstr ""
+"Červené vlaječky jsou takové, na které nelze kliknout. Když chcete na "
+"dlaždici umístit červenou vlaječku:"
+
+#: C/flags.page:52(item/p)
+#| msgid "Right click on an un-revealed square."
+msgid "right click on a blank tile."
+msgstr "Klikněte pravým tlačítkem na neodkryté dlaždici."
+
+#: C/flags.page:62(note/p)
+msgid ""
+"To make the number of available flags equal to the number of remaining "
+"mines, enable <gui style=\"checkbox\">Warn if too many flags placed</gui> "
+"and <gui style=\"checkbox\">Use \"I'm not sure\" flags</gui> preference "
+"options, then restart the application."
+msgstr ""
+"Abyste měli jistotu, že počet vlaječek nepřekročí počet zbývajících min "
+"okolo odkryté dlaždice, zapněte si v předvolbách <gui style=\"checkbox"
+"\">Varovat, když máte příliš mnoho vlaječek</gui> a <gui style=\"checkbox"
+"\">Používat vlaječky „Nejsem si jist(á)“</gui>."
+
+#: C/flags.page:72(section/title)
+msgid "Use of the <em>I'm not sure</em> flag"
+msgstr "Používání vlaječek <em>Nejsem si jist(á)</em>"
+
+#: C/flags.page:73(section/p)
+msgid ""
+"If you are not sure whether a tile hides a mine, you can use the blue "
+"<em>I'm not sure</em> flag."
+msgstr ""
+"Pro případ, že si nejste jisti, zda dlaždice minu skrývá či ne, můžete "
+"použít modrou vlaječku <em>Nejsem si jist(á)</em>."
+
+#: C/flags.page:78(td/p)
+msgid "To put an <em>I'm not sure</em> flag on a tile:"
+msgstr "Když chcete na dlaždici umístit vlaječku <em>Nejsem si jist(á)</em>:"
+
+#: C/flags.page:80(item/p)
+msgid "Right-click twice on a blank tile or once on a red flag."
+msgstr ""
+"Klikněte dvojitě pravým tlačítkem na prázdnou dlaždici nebo jednoduše na "
+"červenou vlaječku."
+
+#: C/flags.page:91(note/p)
+msgid ""
+"To enable these flags, click <guiseq><gui style=\"manu\">Mines</gui><gui "
+"style=\"menuitem\">Preferences</gui></guiseq>, and select <gui>Use \"I'm not "
+"sure\" flags</gui>."
+msgstr ""
+"Abyste mohli používat tento typ vlaječek, klikněte na <guiseq><gui style="
+"\"manu\">Miny</gui> <gui style=\"menuitem\">Předvolby</gui></guiseq> a "
+"zaškrtněte <gui>Používat vlaječky „Nejsem si jist(á)“</gui>."
+
+#: C/get-help.page:21(page/title)
+msgid "Hints and warnings"
+msgstr "Rady a varování"
+
+#: C/get-help.page:23(page/p)
+msgid ""
+"You can use hints to reveal safe tiles, and flag warnings to help you keep "
+"track of flags."
+msgstr ""
+"Můžete používat rady pro odhalení bezpečných dlaždic a varování k vlaječkám "
+"pro hlídání jejich počtu."
+
+#: C/get-help.page:26(page/p)
+msgid ""
+"Click <gui style=\"button\">Hint</gui> in the toolbar to reveal a hidden "
+"tile that is safe. You will be penalized for using hints: ten seconds will "
+"be added to your total time."
+msgstr ""
+"Klikněte na nástrojové liště na <gui style=\"button\">Rada</gui>, aby se vám "
+"odhalila dlaždice, která je bezpečná. Za každé použití rady jste "
+"penalizováni – k celkovému času je přičteno 10 sekund."
+
+#: C/get-help.page:30(page/p)
+msgid ""
+"To enable warnings, edit the preferences by selecting <guiseq><gui>Mines</"
+"gui><gui>Preferences</gui></guiseq> and ticking the checkbox next to "
+"<gui>Warn if too many flags have been placed</gui>. This will warn you when "
+"you try to place too many flags next to an open tile."
+msgstr ""
+"Jestli chcete zapnout varování, upravte předvolby tím, že vyberete "
+"<guiseq><gui>Miny</gui> <gui>Předvolby</gui></guiseq> a zaškrtnete políčko "
+"vedle <gui>Varovat, když máte příliš mnoho vlaječek</gui>. Díky tomu budete "
+"varováni, když se pokusíte vedle odkryté dlaždice umístit příliš mnoho "
+"vlaječek."
+
+#: C/high-scores.page:22(page/title)
+#| msgid "High Scores"
+msgid "High scores"
+msgstr "Nejvyšší skóre"
+
+#: C/high-scores.page:24(page/p)
+msgid ""
+"The high scores list the ten fastest times in which each type of mine field "
+"has been cleared."
+msgstr ""
+"V nejvyšších skóre je uvedeno deset nejrychlejších časů, za které byl ten "
+"který typ herní desky vyčištěn od min."
+
+#: C/high-scores.page:27(page/p)
+msgid ""
+"To view the high scores, select <guiseq><gui style=\"menu\">Mines</gui><gui "
+"style=\"menuitem\">Scores</gui></guiseq>. The dialog will display the "
+"<gui>Small</gui> field size by default; to view other sizes, select them in "
+"the drop down menu at the top of the dialog."
+msgstr ""
+"Jestli se chcete podívat na nejvyšší skóre, vyberte <guiseq><gui style=\"menu"
+"\">Miny</gui> <gui style=\"menuitem\">Skóre</gui></guiseq>. Dialogové okno "
+"zobrazí jako výchozí výsledky pro nejmenší hrací desku <gui>8 × 8, 10 min</"
+"gui>. Pro jinou velikost si výsledky zobrazíte výběrem z rozbalovací nabídky."
+
+#: C/license.page:8(info/desc)
+msgid "Legal information."
+msgstr "Právní informace."
+
+#: C/license.page:11(page/title)
+msgid "License"
+msgstr "Licence"
+
+#: C/license.page:12(page/p)
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Tato práce je šířena pod licencí CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+
+#: C/license.page:20(page/p)
+msgid "You are free:"
+msgstr "Můžete volně:"
+
+#: C/license.page:25(item/title)
+msgid "<em>To share</em>"
+msgstr "<em>Sdílet</em>"
+
+#: C/license.page:26(item/p)
+msgid "To copy, distribute and transmit the work."
+msgstr "Kopírovat, šířit a rozesílat dílo."
+
+#: C/license.page:29(item/title)
+msgid "<em>To remix</em>"
+msgstr "<em>Měnit</em>"
+
+#: C/license.page:30(item/p)
+msgid "To adapt the work."
+msgstr "Přizpůsobovat dílo."
+
+#: C/license.page:33(page/p)
+msgid "Under the following conditions:"
+msgstr "Za následujících podmínek:"
+
+#: C/license.page:38(item/title)
+msgid "<em>Attribution</em>"
+msgstr "<em>Označení</em>"
+
+#: C/license.page:39(item/p)
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Musíte dílo označit v souladu s požadavky autora nebo licence (ale ne žádným "
+"způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
+
+#: C/license.page:46(item/title)
+msgid "<em>Share Alike</em>"
+msgstr "<em>Stejné sdílení</em>"
+
+#: C/license.page:47(item/p)
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Pokud dílo změníte, převedete nebo na něm založíte jiné, můžete výsledek "
+"této práce šířit pouze pod stejnou, podobnou nebo kompatibilní licencí."
+
+#: C/license.page:53(page/p)
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Text licence v plném znění najdete na <link href=\"http://creativecommons."
+"org/licenses/by-sa/3.0/legalcode\">webových stránkách CreativeCommons</link> "
+"nebo si přečtěte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"\">výtah dokumentu pro neprávníky</link>."
+
+#: C/new-game.page:26(page/title)
+msgid "Start a new game"
+msgstr "Jak spustit novou hru"
+
+#: C/new-game.page:28(page/p)
+msgid "To start a new game:"
+msgstr "Když chcete spustit novou hru:"
+
+#: C/new-game.page:31(item/p)
+msgid ""
+"Click the <gui style=\"button\">New</gui> button or select <guiseq><gui "
+"style=\"menu\">Mines</gui> <gui style=\"menuitem\">New Game</gui></guiseq> "
+"from the application menu."
+msgstr ""
+"Klikněte na tlačítko <gui style=\"button\">Nová</gui> nebo v nabídce "
+"aplikace vyberte <guiseq><gui style=\"menu\">Miny</gui> <gui style=\"menuitem"
+"\">Nová hra</gui></guiseq>."
+
+#: C/new-game.page:37(item/p)
+msgid "Select your preferred <link xref=\"board-size\">board size</link>."
+msgstr ""
+"Vyberte si <link xref=\"board-size\">velikost hrací desky</link>, která vám "
+"vyhovuje."
+
+#: C/new-game.page:42(note/p)
+msgid ""
+"If you are already playing a game, <app>Mines</app> will ask if you want to "
+"<gui>Start New Game</gui> or <gui>Keep Current Game</gui>. If you choose the "
+"former, your current game will be lost."
+msgstr ""
+"V situaci, kdy máte nějakou hru rozehranou, dotáží se vás <app>Miny</app>, "
+"jestli chcete <gui>Začít novou hru</gui> nebo <gui>Zachovat stávající hru</"
+"gui>. Pokud zvolíte první jmenované, o právě rozehranou hru příjdete."
+
+#: C/rules.page:24(page/title)
+msgid "Game rules"
+msgstr "Pravidla hry"
+
+#: C/rules.page:26(page/p)
+msgid ""
+"The aim of <app>Mines</app> is to clear the minefield without detonating any "
+"of the mines."
+msgstr ""
+"Cílem hry <app>Miny</app> je vyčistit minové pole, aniž byste některou z min "
+"odpálili."
+
+#: C/rules.page:31(item/p)
+msgid ""
+"Start by chosing one of the three default board sizes, or by selecting a "
+"custom board."
+msgstr ""
+"Hru začněte výběrem jedné ze tří velikostí hrací desky nebo výběrem vlastní "
+"desky."
+
+#: C/rules.page:35(item/p)
+msgid ""
+"The game begins with the board covered in tiles. Click on any tile to "
+"uncover it. You will reveal:"
+msgstr ""
+"Hra začíná s hrací deskou pokrytou dlaždicemi. Kliknutím na dlaždici ji "
+"odkryjete. Tím můžete odhalit:"
+
+#: C/rules.page:39(item/p)
+msgid ""
+"A colored number, which represent the number of mines in the adjacent tiles. "
+"This will help you deduce where the mines are so that you can mark them with "
+"<link xref=\"flags\">flags</link>."
+msgstr ""
+"Barevné číslo, které udává počet min pod sousedními dlaždicemi. To vám "
+"umožní vydedukovat, kde se miny nachází, takže si je můžete označit <link "
+"xref=\"flags\">vlaječkami</link>."
+
+#: C/rules.page:44(item/p)
+msgid ""
+"A blank tile, which means there are no mines under any of the adjacent tiles."
+msgstr ""
+"Prádné políčko, což znamená, že ani pod žádnou sousední dlaždicí se neukrývá "
+"mina."
+
+#: C/rules.page:48(item/p)
+msgid "A mine, which will detonate and end the game."
+msgstr "Minu, která detonuje a tím pro vás hra končí."
+
+#: C/rules.page:53(item/p)
+msgid ""
+"Repeat the previous step until you have uncovered all the tiles which do not "
+"have mines underneath them."
+msgstr ""
+"Opakujte předchozí krok tak dlouho, dokud neodkryjete všechny dlaždice, pod "
+"kterými nejsou miny."
+
+#: C/rules.page:58(page/p)
+msgid ""
+"If you complete the game quickly enough, you will be added to the <link xref="
+"\"high-scores\">high scores</link> list."
+msgstr ""
+"V případě, že hru dokončíte dostatečně rychle, budete přidáni do žebříčku "
+"<link xref=\"high-scores\">nejvyšších skóre</link>."
+
+#: C/shortcuts.page:17(page/title)
+msgid "Keyboard shortcuts"
+msgstr "Klávesové zkratky"
+
+#: C/shortcuts.page:20(td/p)
+msgid "New game"
+msgstr "Nová hra"
+
+#: C/shortcuts.page:21(td/p)
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#: C/shortcuts.page:24(td/p)
+msgid "Fullscreen"
+msgstr "Celá obrazovka"
+
+#: C/shortcuts.page:25(td/p)
+msgid "<key>F11</key>"
+msgstr "<key>F11</key>"
+
+#: C/shortcuts.page:28(td/p)
+#| msgid "Hints"
+msgid "Hint"
+msgstr "Rada"
+
+#: C/shortcuts.page:29(td/p)
+msgid "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+
+#: C/shortcuts.page:32(td/p)
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: C/shortcuts.page:33(td/p)
+msgid "<key>Pause</key>"
+msgstr "<key>Pause</key>"
+
+#: C/shortcuts.page:34(note/p)
+msgid ""
+"Use the toolbar shortcut if your keyboard does not have a <key>Pause</key> "
+"key."
+msgstr ""
+"V případě, že na klávesnici nemáte klávesu <key>Pause</key>, použijte "
+"tlačítko na nástrojové liště."
+
+#: C/shortcuts.page:37(td/p)
+msgid "Help"
+msgstr "Nápověda"
+
+#: C/shortcuts.page:38(td/p)
+msgid "<key>F1</key>"
+msgstr "<key>F1</key>"
+
+#: C/shortcuts.page:41(td/p)
+msgid "Quit"
+msgstr "Ukončit"
+
+#: C/shortcuts.page:42(td/p)
+msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+
+#: C/toolbar.page:15(page/title)
+msgid "Toolbar"
+msgstr "Nástrojová lišta"
+
+#: C/toolbar.page:17(page/p)
+msgid ""
+"The toolbar, located under the menu bar, lets you perform common actions "
+"with your mouse. To use a toolbar item, just click on it. The buttons, from "
+"left to right, are <gui><link xref=\"new-game\">New Game</link></gui>, <link "
+"xref=\"get-help\">Hint</link>, <gui>Pause</gui> and <gui>Fullscreen</gui>."
+msgstr ""
+"Nástrojová lišta umístěná pod nabídkovou lištou usnadňuje provádění činností "
+"pomocí myši. Když chcete použít některou její položku, stačí na ni kliknout. "
+"Tlačítka, bráno zleva doprava, jsou <gui><link xref=\"new-game\">Nová hra</"
+"link></gui>, <link xref=\"get-help\">Rada</link>, <gui>Pozastavit</gui> a "
+"<gui>Celá obrazovka</gui>."
+
+#: C/translate.page:15(credit/name)
+msgid "Michael Hill"
+msgstr "Michael Hill"
+
+#: C/translate.page:23(page/title)
+msgid "Help translate"
+msgstr "Pomozte překládat"
+
+#: C/translate.page:24(page/p)
+msgid ""
+"The <app>GNOME games</app> user interface and documentation is being "
+"translated by a world-wide volunteer community. You are welcome to "
+"participate."
+msgstr ""
+"Uživatelské rozhraní a dokumentaci <app>her GNOME</app> překládá komunita "
+"dobrovolníků z celého světa. Vaše případná účast bude vítána."
+
+#: C/translate.page:27(page/p)
+msgid ""
+"There are <link href=\"http://l10n.gnome.org/module/gnome-mines/\">many "
+"languages</link> for which translations are still needed."
+msgstr ""
+"Stále je <link href=\"http://l10n.gnome.org/module/quadrapassel/\">řada "
+"jazyků</link>, do kterých je třeba překlad udělat."
+
+#: C/translate.page:30(page/p)
+msgid ""
+"To start translating you will need to <link href=\"http:l10n.gnome.org"
+"\">create an account</link> and join the <link href=\"http://l10n.gnome.org/"
+"teams/\">translation team</link> for your language. This will give you the "
+"ability to upload new translations."
+msgstr ""
+"Jestli chcete překládat, musíte si <link href=\"http:l10n.gnome.org"
+"\">vytvořit účet</link> a přidat se k <link href=\"http://l10n.gnome.org/"
+"teams/\">překladatelskému týmu</link> svého jazyka. Pak budete moci odesílat "
+"své nové překlady."
+
+#: C/translate.page:34(page/p)
+msgid ""
+"You can chat with GNOME translators using <link href=\"https://cbe003.chat."
+"mibbit.com/?url=irc%3A%2F%2Firc.gnome.org%2Fi18n\">irc</link>. People on the "
+"channel are located worldwide, so you may not get an immediate response as a "
+"result of timezone differences."
+msgstr ""
+"S ostatními překladateli můžete komunikovat pomocí <link href=\"https://"
+"cbe003.chat.mibbit.com/?url=irc%3A%2F%2Firc.gnome.org%2Fi18n\">IRC</link>. "
+"Lidé na tomto kanále jsou z celého světa, tak počítejte s tím, že kvůli "
+"rozdílným časovým pásmům, nemusí reagovat hned."
+
+#: C/translate.page:37(page/p)
+msgid ""
+"Alternatively, you can contact the Internationalization Team using their "
+"<link href=\"http://mail.gnome.org/mailman/listinfo/gnome-i18n\">mailing "
+"list</link>."
+msgstr ""
+"Případně můžete kontaktovat Internacionalizační tým přes jeho <link href="
+"\"http://mail.gnome.org/mailman/listinfo/gnome-i18n\">poštovní konferenci</"
+"link>."
