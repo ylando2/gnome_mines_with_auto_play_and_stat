@@ -729,7 +729,12 @@ public class Mines : Gtk.Application
 		auto_play_action.set_enabled(false);
         pause_action.set_enabled (false);
 		history.addLose(minefield.width,minefield.height,minefield.n_mines);
-    }
+    
+        if (show_scores (null, true) == Gtk.ResponseType.CLOSE)
+            window.destroy ();
+        else
+            show_new_game_screen ();
+	}
 
     private void cleared_cb (Minefield minefield)
     {
