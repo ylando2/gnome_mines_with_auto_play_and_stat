@@ -82,7 +82,7 @@ public class Mines : Gtk.Application
         { "pause",         toggle_pause_cb                                        },
         { "fullscreen",    fullscreen_cb                                          },
         { "scores",        scores_cb                                              },
-		{ "reset_scores",  reset_scores_cb                                        },
+        { "reset_scores",  reset_scores_cb                                        },
         { "preferences",   preferences_cb                                         },
         { "quit",          quit_cb                                                },
         { "help",          help_cb                                                },
@@ -504,9 +504,9 @@ public class Mines : Gtk.Application
         flag_label.set_text (_("Flags left: %d").printf ((int)minefield.n_mines-minefield.n_flags));
     }
 
-    private int show_scores (HistoryEntry? selected_entry = null, bool show_quit = false)
+    private int show_scores (HistoryEntry? selected_entry = null,Minefield? minefield = null, bool show_quit = false)
     {
-        var dialog = new ScoreDialog (history, selected_entry, show_quit);
+        var dialog = new ScoreDialog (history, selected_entry,minefield, show_quit);
         dialog.modal = true;
         dialog.transient_for = window;
 
@@ -526,13 +526,23 @@ public class Mines : Gtk.Application
 
     private void scores_cb ()
     {
-        show_scores ();
+        show_scores (null, minefield, false);
     }
 
-	private void reset_scores_cb ()
-	{
-		history.reset();
-	}
+    private void reset_scores_cb ()
+    {
+        var dialog=new Gtk.MessageDialog (window, Gtk.DialogFlags.MODAL, Gtk.MessageType.QUESTION, Gtk.ButtonsType.NONE, "%s", _("Are you sure you want to reset all scores?"));
+        dialog.add_buttons (_("Keep the scores"), Gtk.ResponseType.DELETE_EVENT,
+                            _("Delete all scores"), Gtk.ResponseType.ACCEPT,
+                                null);
+        dialog.secondary_text = (_("If you reset all scores, all the history and statistic will be lost."));
+        var result = dialog.run ();
+        dialog.destroy ();
+        if (result == Gtk.ResponseType.ACCEPT)
+        {
+                history.reset();
+        }
+    }
 
     private void show_custom_game_screen ()
     {
@@ -730,7 +740,7 @@ public class Mines : Gtk.Application
         pause_action.set_enabled (false);
 		history.addLose(minefield.width,minefield.height,minefield.n_mines);
     
-        if (show_scores (null, true) == Gtk.ResponseType.CLOSE)
+        if (show_scores (null,minefield, true) == Gtk.ResponseType.CLOSE)
             window.destroy ();
         else
             show_new_game_screen ();
@@ -747,7 +757,7 @@ public class Mines : Gtk.Application
         history.add (entry);
         history.save ();
 
-        if (show_scores (entry, true) == Gtk.ResponseType.CLOSE)
+        if (show_scores (entry,null, true) == Gtk.ResponseType.CLOSE)
             window.destroy ();
         else
             show_new_game_screen ();
@@ -1034,7 +1044,7 @@ public class ScoreDialog : Gtk.Dialog
 	private Gtk.Label total_label;
 	private Gtk.Label percentage_label;
 
-    public ScoreDialog (History history, HistoryEntry? selected_entry = null, bool show_quit = false)
+    public ScoreDialog (History history, HistoryEntry? selected_entry = null, Minefield? minefield = null, bool show_quit = false)
     {
 		wins_label=new Gtk.Label("");
 		loses_label=new Gtk.Label("");
@@ -1098,9 +1108,14 @@ public class ScoreDialog : Gtk.Dialog
         scores.show ();
         scroll.add (scores);
 
+        var statEntries=history.statEntries.copy();
+        statEntries.sort (compare_stat_entries);
+	foreach (var entry in statEntries)
+            entry_added_stat (entry,minefield);
         foreach (var entry in history.entries)
             entry_added_cb (entry);
-			
+
+	
         Gtk.TreeIter iter;
 		int width, height, n_mines;
 		uint wins=0,loses=0,total=0;
@@ -1118,15 +1133,14 @@ public class ScoreDialog : Gtk.Dialog
 			 }
 		}
 		
-		wins_label.show();
-		vbox.pack_start(wins_label, false, false, 0);
-		loses_label.show();
-		vbox.pack_start(loses_label, false, false, 0);
-		total_label.show();
-		vbox.pack_start(total_label, false, false, 0);
-		percentage_label.show();
-		vbox.pack_start(percentage_label, false, false, 0);
-			
+	wins_label.show();
+	vbox.pack_start(wins_label, false, false, 0);
+	loses_label.show();
+	vbox.pack_start(loses_label, false, false, 0);
+	total_label.show();
+	vbox.pack_start(total_label, false, false, 0);
+	percentage_label.show();
+	vbox.pack_start(percentage_label, false, false, 0);		
     }
 
     public void set_size (uint width, uint height, uint n_mines)
@@ -1169,6 +1183,15 @@ public class ScoreDialog : Gtk.Dialog
         if (a.duration != b.duration)
             return (int) a.duration - (int) b.duration;
         return a.date.compare (b.date);
+    }
+
+    private static int compare_stat_entries(StatEntry a, StatEntry b)
+    {
+        if (a.width != b.width)
+            return (int) a.width - (int) b.width;
+        if (a.height != b.height)
+            return (int) a.height - (int) b.height;
+        return (int) a.n_mines - (int) b.n_mines;
     }
 
     private void size_changed_cb (Gtk.ComboBox combo)
@@ -1230,6 +1253,47 @@ public class ScoreDialog : Gtk.Dialog
             if (size_combo.get_active () == -1)
                 size_combo.set_active_iter (iter);
 
+            /* Select this entry if the same category as the selected one */
+            if (selected_entry != null && entry.width == selected_entry.width && entry.height == selected_entry.height && entry.n_mines == selected_entry.n_mines)
+                size_combo.set_active_iter (iter);
+        }
+    }
+
+    private void entry_added_stat (StatEntry entry,Minefield? minefield)
+    {
+        /* Ignore if already have an entry for this */
+        Gtk.TreeIter iter;
+        var have_size_entry = false;
+        if (size_model.get_iter_first (out iter))
+        {
+            do
+            {
+                int width, height, n_mines;
+                size_model.get (iter, 1, out width, 2, out height, 3, out n_mines);
+                if (width == entry.width && height == entry.height && n_mines == entry.n_mines)
+                {
+                    have_size_entry = true;
+                    break;
+                }
+            } while (size_model.iter_next (ref iter));
+        }
+
+        if (!have_size_entry)
+        {
+            var label = ngettext ("%u × %u, %u mine", "%u × %u, %u mines", entry.n_mines).printf (entry.width, entry.height, entry.n_mines);
+
+            size_model.append (out iter);
+            size_model.set (iter, 0, label, 1, entry.width, 2, entry.height, 3, entry.n_mines);
+    
+            /* Select this entry if don't have any */
+            if (size_combo.get_active () == -1)
+                size_combo.set_active_iter (iter);
+
+            /* Select this entry if the player lost in this minefield */
+            if (minefield != null && entry.width == minefield.width && entry.height == minefield.height && entry.n_mines == minefield.n_mines) {
+                size_combo.set_active_iter (iter);
+                return;
+            } 
             /* Select this entry if the same category as the selected one */
             if (selected_entry != null && entry.width == selected_entry.width && entry.height == selected_entry.height && entry.n_mines == selected_entry.n_mines)
                 size_combo.set_active_iter (iter);
